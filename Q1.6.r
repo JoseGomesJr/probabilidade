@@ -1,5 +1,5 @@
 library(readxl)
-planilha <- read_excel("ENEM_AL_EXCEL_AJUS_OK.xlsx", sheet=1, col_names=TRUE)
+planilha <- read_excel("c:\\Users\\josej\\OneDrive\\Documentos\\Probabilidade\\probabilidade\\ENEM_AL_EXCEL_AJUS_OK.xlsx", sheet=1, col_names=TRUE)
 dados <- as.data.frame(planilha)
 notas_zero <- table(dados$NU_NOTA_REDACAO == 0, dados$NO_MUNICIPIO_RESIDENCIA)
 
